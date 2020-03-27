@@ -21,6 +21,7 @@ namespace DutchTreat
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseDefaultFiles();  // Added support for default files like index.html, index.htm etc. that the server would look for by default when the request URL has just the FQDN
             app.UseStaticFiles();
             //if (env.IsDevelopment())
             //{
