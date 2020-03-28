@@ -15,3 +15,12 @@ input, textarea {
 label {
     font-size: 16px;
 }
+
+#theForm {
+    background-color: #d1cbcb;
+}
+
+#theForm input[type=submit] {
+    background-color: green;
+    color: white;
+}
