@@ -35,4 +35,5 @@ ul.product-props li {
 
 .product-info {
     border: 1px solid grey;
+    display: inline-block;
 }
