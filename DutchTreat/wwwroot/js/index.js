@@ -23,4 +23,11 @@
     prodInfo.on("click", function () {
         console.log("you clicked: " + $(this).text());
     });
+
+    var $loginToggle = $("#loginToggle");
+    var $popupForm = $(".popup-form"); 
+
+    $loginToggle.on("click", function () {
+        $popupForm.toggle();
+    })
 });
