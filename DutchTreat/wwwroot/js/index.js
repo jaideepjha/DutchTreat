@@ -26,9 +26,10 @@
 
     var $loginToggle = $("#loginToggle");
     var $popupForm = $(".popup-form");
-    $popupForm.hide();
+    //$popupForm.hide();
 
     $loginToggle.on("click", function () {
-        $popupForm.toggle();
+        console.log("inside login toggle div");
+        $popupForm.toggle(1000);
     })
 });
