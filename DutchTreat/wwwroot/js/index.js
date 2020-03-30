@@ -25,7 +25,8 @@
     });
 
     var $loginToggle = $("#loginToggle");
-    var $popupForm = $(".popup-form"); 
+    var $popupForm = $(".popup-form");
+    $popupForm.hide();
 
     $loginToggle.on("click", function () {
         $popupForm.toggle();
