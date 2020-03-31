@@ -16,6 +16,7 @@ namespace DutchTreat.Controllers
         [HttpGet("contact")]
         public IActionResult Contact()
         {
+            throw new InvalidOperationException("case of the unexplained!");
             ViewBag.Title = "Contact Us";
             return View();
         }
